@@ -45,8 +45,8 @@ The network is designed for rapid scalability with a lean CAPEX model. By offset
 | Metric | Monthly Value | Annual Total |
 | :--- | :--- | :--- |
 | **Gross Revenue** | $1,105.00 | $13,260.00 |
-| **Operating Expenses (OPEX)** | $335.00 | $4,020.00 |
-| **Net Profit** | **$770.00** | **$9,240.00** |
+| **Operating Expenses (OPEX)** | $20.00 | $240.00 |
+| **Net Profit** | **$1,105.00** | **$13,260.00** |
 
 #### Hardware Inventory & CAPEX
 | Category | Device | Quantity | Unit Price | Total Price |
