@@ -3,6 +3,8 @@
 ### 1. Project Overview
 A high-capacity **Fixed Wireless Access (FWA)** network engineered for Kilis, Turkey. This project simulates a professional ISP deployment bridging a 1.00 Gbps fiber gateway to high-density residential zones (Ekrem Çetin, Karataş, Toki) using the **Ubiquiti ISP Design Center**.
 
+**View Project Design:** [UISP Design Center](https://ispdesign.ui.com/#p=76f41d5c9a184ed180e597db82b8a613)
+
 ![Heatmap Analysis](assets/heatmap.png)
 ![Topology Diagram](assets/topology.png)
 
