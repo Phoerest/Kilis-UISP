@@ -3,7 +3,8 @@
 ### 1. Project Overview
 A high-capacity **Fixed Wireless Access (FWA)** network engineered for Kilis, Turkey. This project simulates a professional ISP deployment bridging a 1.00 Gbps fiber gateway to high-density residential zones (Ekrem Çetin, Karataş, Toki) using the **Ubiquiti ISP Design Center**.
 
-![Heatmap Analysis](assets/heatmap.jpg)
+![Heatmap Analysis](assets/heatmap.png)
+![Topology Diagram](assets/topology.png)
 
 ---
 
@@ -36,7 +37,7 @@ A high-capacity **Fixed Wireless Access (FWA)** network engineered for Kilis, Tu
 ### 5. Financial Modeling & Profitability
 The network is designed for rapid scalability with a lean CAPEX model. By offsetting CPE costs through installation fees, the project reaches a break-even point in approximately 4 months.
 
-![Topology Diagram](assets/topology.png)
+![Topology Diagram](assets/profitability.png)
 
 #### Project Economics (Based on 105 Subscribers)
 | Metric | Monthly Value | Annual Total |
@@ -54,6 +55,13 @@ The network is designed for rapid scalability with a lean CAPEX model. By offset
 | **Switching**| UISP Switch | 1 | $79.00 | $79.00 |
 | **Setup & Labor** | Installation/VAT | - | - | $1,000.00 |
 | **Total Startup Cost**| | | | **$4,397.00** |
+
+#### Service Plan Tiers
+| Plan | Downlink | Uplink | Price per Month | Subscribers |
+| :--- | :--- | :--- | :--- | :--- |
+| **Plan 1** | 10 Mbps | 2 Mbps | $10.00 | 50 |
+| **Plan 2** | 20 Mbps | 3 Mbps | $11.00 | 35 |
+| **Plan 3** | 30 Mbps | 4 Mbps | $12.00 | 20 |
 
 *Note: LTU-XR CPE units ($2,475 total) are excluded from CAPEX as they are covered by customer installation fees.*
 
@@ -87,12 +95,6 @@ A sudden 10dB drop on a 60GHz link is a critical event due to the narrow beamwid
 * **[ ] Capacity Stress Test:** Run bidirectional UDP tests to verify 1.95 Gbps backhaul limits.
 * **[ ] Failover Verification:** Manually disable a 60GHz link to ensure 5GHz backup takes over within < 1 second.
 * **[ ] Security Audit:** Confirm **Client Isolation** is active and management VLANs are unreachable from subscriber IPs.
-
----
-
-### 8. Visual Documentation
-* **Revenue Projections:** [See assets/profitability.png]
-* **Service Plan Tiers:** [See assets/plans.png]
 
 ---
 **Tech Stack:** `Ubiquiti UISP` | `RF Planning` | `GIS Analysis` | `Network Topology` | `Law 5651 Compliance`
